@@ -6,9 +6,13 @@
 
 Структура проекта:
 7th_semester_practice/
+
 ├── main.py              # Точка входа приложения, роутеры
+
 ├── models.py            # Pydantic-схемы данных (Request/Response)
+
 ├── services.py          # Бизнес-логика: расчеты, валидация
+
 └── db.py                # Имитация базы данных (In-memory storage)
 
 Файл main.py (Точка входа FastAPI)
